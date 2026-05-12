@@ -27,6 +27,9 @@ function setImage() {
       case 11:
         image_path += "christmas.png"
         break;
+      default:
+        image_path += "default.png"
+        break
     }
     icon.src = image_path
   }
