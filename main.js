@@ -6,9 +6,6 @@ function setImage() {
   if (icon) {
     let image_path = "icons/"
     switch (current_month) {
-      case 0:
-        image_path += "newyears.png"
-        break;
       case 1:
         image_path += "valentines.png"
         break;
@@ -19,7 +16,7 @@ function setImage() {
         image_path += "easter.png"
         break;
       case 5:
-        image_path += "pride.png"
+        image_path += "gay_month.png"
         break;
       case 9:
         image_path += "halloween.png"
