@@ -40,6 +40,22 @@ main {
     }
 }
 
+.ranktag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    img {
+        width: 100px;
+    }
+}
+
 footer{
     background-color: var(--ctp-mocha-mantle);
     text-align: right;
@@ -60,6 +76,11 @@ h1 {
 
 h2 {
     color: var(--ctp-mocha-red);
+    text-align: center;
+}
+
+h3 {
+    color: var(--ctp-mocha-yellow);
     text-align: center;
 }
 
